@@ -4,9 +4,9 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 
 // Student Pages 
-import Login from "./pages/Students/Login.jsx";
-import Signup from "./pages/Students/Signup";
-import HomeStudent from './pages/Students/Home.jsx';
+import Login from "./pages/students/Login.jsx";
+import Signup from "./pages/students/Signup";
+import HomeStudent from './pages/students/Home.jsx';
 import UpdatePlacementProfile from "./components/Students/UpdatePlacementProfile.jsx";
 import UpdateJobStatus from "./components/Students/UpdateJobStatus.jsx";
 import AddInternship from "./components/Students/AddInternship.jsx";
